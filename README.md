@@ -17,13 +17,11 @@ I, [2021-01-15T19:25:43.197515 #74487]  INFO -- : FunctionsFramework: Starting s
 I, [2021-01-15T19:25:43.347717 #74487]  INFO -- : FunctionsFramework: Serving function "hello_http" on port 8080...
 ```
 
-## Development
-
 ## Deployment
 
 Read more: https://cloud.google.com/functions/docs/first-ruby#creating_a_gcp_project_using_cloud_sdk
 
-## Creating a GCP project using Cloud SDK
+### Creating a GCP project using Cloud SDK
 
 1. In the Google Cloud Console, on the project selector page, create a Google Cloud project:
    
@@ -43,11 +41,15 @@ Read more: https://cloud.google.com/functions/docs/first-ruby#creating_a_gcp_pro
 - Under __Which API are you using?__ select *Cloud Functions API*
 - Under __Are you planning to use this API with App Engine or Compute Engine?__ select *No, I’m not using them*
 
-4. Install and initialize the Cloud SDK.
+### Installing and setting up the Google Cloud SDK
+
+1. Install and initialize the Cloud SDK.
 
 - https://cloud.google.com/sdk/docs/quickstart
 
-5. Setup the function name and project ID in the environment file `.env`
+### Connecting the local project with the Google Cloud
+
+1. Setup the function name and project ID in the environment file `.env`
 
 The project ID can be found in the project's dashboard
 
@@ -56,25 +58,25 @@ PROJECT_ID=psychic-outcome-301815
 FUNCTION_NAME=hello_http
 ```
 
-6. Login onto your Google Cloud account
+2. Login onto your Google Cloud account
 
 ```sh
 bundle exec rake login
 ```
 
-7. Set the local Google Cloud Project
+3. Set the local Google Cloud Project
 
 ```sh
 bundle exec rake setup
 ```
 
-8. Deploy the function to Google Cloud
+4. Deploy the function to Google Cloud
 
 ```sh
 bundle exec rake deploy
 ```
 
-9. Test the deployed function
+5. Test the deployed function
 
 ```sh
 bundle exec rake describe
