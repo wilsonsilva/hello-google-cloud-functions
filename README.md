@@ -1,5 +1,7 @@
 # Google Cloud Function
 
+View it here https://us-central1-psychic-outcome-301815.cloudfunctions.net/hello_http
+
 ## Installation
 
 - Install Ruby
