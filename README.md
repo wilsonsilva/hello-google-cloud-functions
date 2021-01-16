@@ -60,24 +60,24 @@ FUNCTION_NAME=hello_http
 
 2. Login onto your Google Cloud account
 
-```sh
+```
 bundle exec rake login
 ```
 
 3. Set the local Google Cloud Project
 
-```sh
+```
 bundle exec rake setup
 ```
 
 4. Deploy the function to Google Cloud
 
-```sh
+```
 bundle exec rake deploy
 ```
 
 5. Test the deployed function
 
-```sh
+```
 bundle exec rake describe
 ```
