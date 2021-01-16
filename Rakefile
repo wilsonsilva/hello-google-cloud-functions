@@ -25,7 +25,7 @@ end
 
 desc 'Displays the information about the function in Google Cloud'
 task :describe do
-  `gcloud functions describe #{function_name}`
+  puts `gcloud functions describe #{function_name}`
 end
 
 desc 'Displays the app logs'
