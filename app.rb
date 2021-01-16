@@ -1,5 +1,5 @@
-require "functions_framework"
+require 'functions_framework'
  
-FunctionsFramework.http "hello_http" do |request|
+FunctionsFramework.http 'hello_http' do
   "Hello, world!\n"
 end
