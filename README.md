@@ -35,11 +35,11 @@ Read more: https://cloud.google.com/functions/docs/first-ruby#creating_a_gcp_pro
 
 3. Enable the Cloud Functions and Cloud Build APIs.
 
-- Open the [Google Cloud project setup wizard](https://console.cloud.google.com/flows/enableapi?apiid=cloudfunctions,cloudbuild.googleapis.com)
-- Under __Select a project where your application will be registered__ select *hello-google-cloud-functions* and press __Continue__
-- Click __Go to credentials__
-- Under __Which API are you using?__ select *Cloud Functions API*
-- Under __Are you planning to use this API with App Engine or Compute Engine?__ select *No, I’m not using them*
+   - Open the [Google Cloud project setup wizard](https://console.cloud.google.com/flows/enableapi?apiid=cloudfunctions,cloudbuild.googleapis.com)
+   - Under __Select a project where your application will be registered__ select *hello-google-cloud-functions* and press __Continue__
+   - Click __Go to credentials__
+   - Under __Which API are you using?__ select *Cloud Functions API*
+   - Under __Are you planning to use this API with App Engine or Compute Engine?__ select *No, I’m not using them*
 
 ### Installing and setting up the Google Cloud SDK
 
